@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace AnonymousMethods
+﻿namespace AnonymousMethods
 {
     public class Program
     {
