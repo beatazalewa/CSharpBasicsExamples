@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldReturn", "YieldReturn\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldBreak", "YieldBreak\YieldBreak.csproj", "{548ECA8C-5A37-4BC7-8EF7-AB64305ABE0E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldReturnNumbers", "YieldReturnNumbers\YieldReturnNumbers.csproj", "{CFAA2782-C7AB-483C-838C-C9EE8D9A2FA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{548ECA8C-5A37-4BC7-8EF7-AB64305ABE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{548ECA8C-5A37-4BC7-8EF7-AB64305ABE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{548ECA8C-5A37-4BC7-8EF7-AB64305ABE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFAA2782-C7AB-483C-838C-C9EE8D9A2FA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAA2782-C7AB-483C-838C-C9EE8D9A2FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAA2782-C7AB-483C-838C-C9EE8D9A2FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAA2782-C7AB-483C-838C-C9EE8D9A2FA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
