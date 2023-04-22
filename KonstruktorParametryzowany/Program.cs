@@ -10,7 +10,7 @@
             marka = Console.ReadLine();
             Console.WriteLine("Podaj model samochodu: ");
             model = Console.ReadLine();
-            if (model == "")
+            if (marka != "" && model == "")
             {
                 KonstruktorParametryzowany kp = new KonstruktorParametryzowany(marka);
             }
