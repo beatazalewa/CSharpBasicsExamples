@@ -27,6 +27,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoleStatyczne", "PoleStatyc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfejs", "Interfejs\Interfejs.csproj", "{F8855C08-EA22-4C62-B4AB-6295CCDC2F8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoInterfejs", "DemoInterfejs\DemoInterfejs.csproj", "{ED57217C-AE6D-492B-B809-729CC9DE6FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldReturn", "YieldReturn\YieldReturn.csproj", "{CA1E64CF-3A54-43DE-828F-A63797E647BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +85,14 @@ Global
 		{F8855C08-EA22-4C62-B4AB-6295CCDC2F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8855C08-EA22-4C62-B4AB-6295CCDC2F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8855C08-EA22-4C62-B4AB-6295CCDC2F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED57217C-AE6D-492B-B809-729CC9DE6FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED57217C-AE6D-492B-B809-729CC9DE6FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED57217C-AE6D-492B-B809-729CC9DE6FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED57217C-AE6D-492B-B809-729CC9DE6FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA1E64CF-3A54-43DE-828F-A63797E647BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1E64CF-3A54-43DE-828F-A63797E647BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1E64CF-3A54-43DE-828F-A63797E647BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1E64CF-3A54-43DE-828F-A63797E647BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
