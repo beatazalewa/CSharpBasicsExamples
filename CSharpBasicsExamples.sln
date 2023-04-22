@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldReturnNumbers", "Yield
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitlyImplementMembersOfTwoInterfaces", "ExplicitlyImplementMembersOfTwoInterfaces\ExplicitlyImplementMembersOfTwoInterfaces.csproj", "{C33CA2D9-B1B9-42FA-B185-52CA87BFB738}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dziedziczenie", "Dziedziczenie\Dziedziczenie.csproj", "{15EEFA9C-D3BB-4FF4-95F8-D4EE7C4E22D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{C33CA2D9-B1B9-42FA-B185-52CA87BFB738}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C33CA2D9-B1B9-42FA-B185-52CA87BFB738}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C33CA2D9-B1B9-42FA-B185-52CA87BFB738}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EEFA9C-D3BB-4FF4-95F8-D4EE7C4E22D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EEFA9C-D3BB-4FF4-95F8-D4EE7C4E22D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EEFA9C-D3BB-4FF4-95F8-D4EE7C4E22D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EEFA9C-D3BB-4FF4-95F8-D4EE7C4E22D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
