@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnonymousMethods", "Anonymo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpBasicsExamples", "CSharpBasicsExamples\CSharpBasicsExamples.csproj", "{9612A297-6694-421E-891E-A385A55F2790}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousType", "AnonymousType\AnonymousType.csproj", "{7826878B-CC17-4E61-962B-7EAEA713AE8A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9612A297-6694-421E-891E-A385A55F2790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9612A297-6694-421E-891E-A385A55F2790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9612A297-6694-421E-891E-A385A55F2790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7826878B-CC17-4E61-962B-7EAEA713AE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7826878B-CC17-4E61-962B-7EAEA713AE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7826878B-CC17-4E61-962B-7EAEA713AE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7826878B-CC17-4E61-962B-7EAEA713AE8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
