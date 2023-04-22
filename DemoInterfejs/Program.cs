@@ -1,12 +1,12 @@
 ﻿using System.Security.Cryptography.X509Certificates;
 
-namespace Interfejsy
+namespace DemoInterfejs
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Punkt p1 = new Punkt { IPunkt.X = 4, Y = 5 }; //wywołanie konstruktora domyslnego
+            Punkt p1 = new Punkt { X = 4, Y = 5 }; //wywołanie konstruktora domyslnego
             Punkt p2 = new Punkt();
             p2.X = 40;
             p2.Y = 50;
@@ -21,29 +21,27 @@ namespace Interfejsy
 
     interface IPunkt
     {
-        //Skladowymi interfejsu moga byc wlasciwosci i metody oraz zdarzenia i indeksatory
-        //Nie podajemy dla nich modyfikatora dostepu
+        //Składowymi interfejsu mogą być jedynie właściwości i metody (oraz zdarzenia i
+        //indeksatory)
+        //Nie podajemy dla nich modyfikatora dostępu
 
-        int X { get; set; } //Wlaciwosc bez modyfikatora dostepu 
-        int Y { get; set; } //Wlaciwosc bez modyfikatora dostepu 
+        int X { get; set; } //Właściwość bez modyfikatora dostępu public
+        int Y { get; set; } //Właściwość bez modyfikatora dostępu public
 
         string DajOpis(); //Deklaracja metody - tylko sygnatura
     }
 
     public class Punkt : IPunkt
     {
-        private int x;
-        private int y;
+        public int X { get; set; } //implementacja interfejsu - musi być public
+        public int Y { get; set; } //implementacja interfejsu - musi być public
 
-        int IPunkt.X { get => x; set => value = x; }
-        int IPunkt.Y { get => y; set => value = y; }
-
-        string IPunkt.DajOpis() 
+        public string DajOpis() //implementacja metody - musi być public
         {
-            return String.Format($"Współrzędne {x}, {y}");
+            return String.Format("Współrzędne {0}, {1}", X, Y);
         }
 
-        public string ReklamaPortaluRandkowego() //moja wlasna metoda
+        public string ReklamaPortaluRandkowego() //moja własna metoda
         {
             return "Zarejestruj się na edarling.pl";
         }

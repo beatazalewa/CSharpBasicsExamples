@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldBreak", "YieldBreak\Yi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YieldReturnNumbers", "YieldReturnNumbers\YieldReturnNumbers.csproj", "{CFAA2782-C7AB-483C-838C-C9EE8D9A2FA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExplicitlyImplementMembersOfTwoInterfaces", "ExplicitlyImplementMembersOfTwoInterfaces\ExplicitlyImplementMembersOfTwoInterfaces.csproj", "{C33CA2D9-B1B9-42FA-B185-52CA87BFB738}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{CFAA2782-C7AB-483C-838C-C9EE8D9A2FA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFAA2782-C7AB-483C-838C-C9EE8D9A2FA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFAA2782-C7AB-483C-838C-C9EE8D9A2FA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33CA2D9-B1B9-42FA-B185-52CA87BFB738}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33CA2D9-B1B9-42FA-B185-52CA87BFB738}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33CA2D9-B1B9-42FA-B185-52CA87BFB738}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33CA2D9-B1B9-42FA-B185-52CA87BFB738}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
