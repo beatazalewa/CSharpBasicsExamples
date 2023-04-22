@@ -1,0 +1,24 @@
+﻿namespace YieldBreak
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            foreach (char fib in Programmer("programista"))
+                Console.Write(fib + " ");
+
+            Console.ReadKey();
+        }
+
+        static IEnumerable<char> Programmer(string couplechars)
+        {
+            for (int i = 0; i < couplechars.Length; i++)
+            {
+                if (i == 5) yield break;
+
+                yield return couplechars[i];
+
+            }
+        }
+    }
+}
