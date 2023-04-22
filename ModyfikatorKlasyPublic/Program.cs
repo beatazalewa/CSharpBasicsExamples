@@ -6,8 +6,8 @@
         static void Main(string[] args)
         {
             Prostokat pr = new Prostokat();
-            pr.wysokosc = 4.5;
-            pr.szerokosc = 3.5;
+            pr.wysokosc = 2;
+            //pr.szerokosc = 139;
             pr.WyswietlInformacje();
             Console.ReadKey();
             // Wykonanie programu
@@ -19,7 +19,7 @@
     class Prostokat
     {
         // pola klasy
-        public double szerokosc;
+        private double szerokosc = 65;
         public double wysokosc;
         public double ObliczPowierzchnie()
         {
