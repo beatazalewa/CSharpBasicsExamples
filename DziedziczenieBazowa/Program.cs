@@ -37,7 +37,7 @@
         {
             Console.WriteLine($"Długość: {dlugosc}");
             Console.WriteLine($"Szerokość: {szerokosc}");
-            Console.WriteLine($"Powierzchnia: {ObliczPowierzchnie}");
+            Console.WriteLine($"Powierzchnia: {ObliczPowierzchnie()}");
         }
     }
 
